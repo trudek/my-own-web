@@ -1,7 +1,7 @@
 // menu show - y hidden
-const navMenu = document.getElementById('nav-menu');
-const navToggle = document.getElementById('nav-toggle');
-const navClose = document.getElementById('nav-close');
+const navMenu = document.getElementById('navMenu');
+const navToggle = document.getElementById('navToggle');
+const navClose = document.getElementById('navClose');
 
 //show menu
 if (navToggle) {
@@ -19,7 +19,7 @@ if (navClose) {
 
 //hide menu when selected
 function linkPressed() {
-  const navMenu = document.getElementById('nav-menu');
+  const navMenu = document.getElementById('navMenu');
   navMenu.classList.remove('show-menu');
 }
 const navLink = document.querySelectorAll('.nav__link');

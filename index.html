@@ -22,7 +22,7 @@
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">Damian</a>
-        <div class="nav__menu" id="nav-menu">
+        <div class="nav__menu" id="navMenu">
           <ul class="nav__list grid">
             <li class="nav__item">
               <a href="#home" class="nav__link">
@@ -55,18 +55,88 @@
               </a>
             </li>
           </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
+          <i class="uil uil-times nav__close" id="navClose"></i>
         </div>
 
         <div class="nav__btns">
-          <div class="nav__toggle" id="nav-toggle">
+          <div class="nav__toggle" id="navToggle">
             <i class="uil uil-apps"></i>
           </div>
         </div>
       </nav>
     </header>
     <!-- main -->
-    <main></main>
+    <main class="main">
+      <!-- home -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a
+                href="https://www.dribbble.com/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-dribbble"></i>
+              </a>
+              <a
+                href="https://www.github.com/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 200"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="#0f49bd"
+                  d="M50,-49.3C60.6,-39.4,62,-19.7,63.8,1.8C65.6,23.3,67.7,46.6,57.2,56C46.6,65.4,23.3,60.9,2.6,58.3C-18.2,55.8,-36.3,55.1,-52,45.7C-67.6,36.3,-80.8,18.2,-80.7,0C-80.7,-18.1,-67.5,-36.2,-51.8,-46.1C-36.2,-56,-18.1,-57.7,0.8,-58.5C19.7,-59.3,39.4,-59.2,50,-49.3Z"
+                  transform="translate(100 100)"
+                />
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Damian</h1>
+              <h3 class="home__subtitle">Frontend Developer</h3>
+              <p class="home__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                repellendus sapiente necessitatibus commodi asperiores, ratione
+                unde earum culpa nesciunt doloribus, debitis illum quas magnam
+                beatae!
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact me <i class="uil uil-envelope-add button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- about -->
+      <!-- skills -->
+      <!-- qualification -->
+      <!-- services -->
+      <!-- portfolio -->
+    </main>
     <!-- footer -->
 
     <!-- scroll top -->
